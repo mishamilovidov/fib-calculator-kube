@@ -1,5 +1,6 @@
+[![Build Status](https://travis-ci.org/mishamilovidov/fib-calculator-kube.svg?branch=master)](https://travis-ci.org/mishamilovidov/fib-calculator-kube)
 
-# Fib Calculator on Kubernetes 🧮☸️
+# Fib Calculator on Kubernetes 🧮☸️ 
 
 A project for exploring Kubernetes using a web app that calculates the sum of 
 fibonacci numbers.
