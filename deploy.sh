@@ -17,13 +17,13 @@ docker build \
 
 # push built images to registry
 docker push mishamilovidov/multi-client:latest
-docket push mishamilovidov/multi-client:$SHA
+docker push mishamilovidov/multi-client:$SHA
 
 docker push mishamilovidov/multi-server:latest
-docket push mishamilovidov/multi-server:$SHA
+docker push mishamilovidov/multi-server:$SHA
 
 docker push mishamilovidov/multi-worker:latest
-docket push mishamilovidov/multi-worker:$SHA
+docker push mishamilovidov/multi-worker:$SHA
 
 # apply configs to k8s cluster
 kubectl apply -f k8s
